@@ -54,6 +54,15 @@ After running the experiment, the task files (like log files, events, etc) will 
 
 ### pRF Mapping Task
 
+<p align="center">
+  <video src="https://github.com/user-attachments/assets/a1ce43f9-1c5a-410e-b90e-af029553b6be" width="500px"></video>
+</p>
+
 ### Feature Attention Task
+
+<p align="center">
+  <video src="https://github.com/user-attachments/assets/169eb9cc-8c4e-440e-8991-621cad9eaf79" width="500px"></video>
+</p>
+
 
 
