@@ -13,7 +13,9 @@ conda env create -f environment.yml
 conda activate FAMexperiment
 ```
 
-If you do not have the `exptools` folder installed in your local machine, clone the repository and manually install the package. **WARNING**: do not install `exptools` within this project repository! Choose a different location to avoid conflicts.
+If you do not have the `exptools` folder installed in your local machine, clone the repository and manually install the package. 
+
+**WARNING**: do not install `exptools` within this project repository! Choose a different location to avoid conflicts.
 
 
 ```
@@ -26,6 +28,8 @@ python setup.py install
 After following these steps, you should be set to go!
 
 ## Project Structure
+
+
 
 ## Running Experiments
 
