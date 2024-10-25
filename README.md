@@ -49,19 +49,19 @@ After running the experiment, the task files (like log files, events, etc) will 
 ### Flicker Task
 
 <p align="center">
-  <video src="https://github.com/user-attachments/assets/4dde1113-759a-4eb1-bd42-33d59042379c" width="500px"></video>
+  <video autoplay loop muted src="https://github.com/user-attachments/assets/4dde1113-759a-4eb1-bd42-33d59042379c" width="500px"></video>
 </p>
 
 ### pRF Mapping Task
 
 <p align="center">
-  <video src="https://github.com/user-attachments/assets/a1ce43f9-1c5a-410e-b90e-af029553b6be" width="500px"></video>
+  <video autoplay loop muted src="https://github.com/user-attachments/assets/a1ce43f9-1c5a-410e-b90e-af029553b6be" width="500px"></video>
 </p>
 
 ### Feature Attention Task
 
 <p align="center">
-  <video src="https://github.com/user-attachments/assets/169eb9cc-8c4e-440e-8991-621cad9eaf79" width="500px"></video>
+  <video autoplay loop muted src="https://github.com/user-attachments/assets/169eb9cc-8c4e-440e-8991-621cad9eaf79" width="500px"></video>
 </p>
 
 
