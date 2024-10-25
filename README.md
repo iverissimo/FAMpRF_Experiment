@@ -37,16 +37,18 @@ cd experiment
 python main.py <sub_num> <run_num>
 ```
 
-Where `<sub_num>` is the participant ID and `<run_num>` is the fMRI task run ID. Both values should be integers (ex: `python main.py 1 1`).
+Where `<sub_num>` is the participant ID and `<run_num>` is the fMRI task run ID. Both values should be integers (e.g.: `python main.py 1 1`).
 
 After running the above code lines, you will be prompted to choose which of the 3 available tasks you would like to run in this session: `flicker`, `standard` or `feature`. For more details on the different tasks, please check the subsequent sections.
 
 After running the experiment, the task files (like log files, events, etc) will be stored in the newly created `output` folder, located in the root folder. The files will be named according to the BIDS convention (e.g.: `output/sourcedata/sub-001/sub-001_ses-1_task-pRF_run-1_events.tsv`).
 
-*Note* - If you want to store the output files in a different directory, you can do so by replacing `base_dir = '<new output path >'` in `FAMpRF_Experiment/experiment/main.py`.
+*Note* - If you want to store the output files in a different directory, you can do so by replacing `base_dir = '/new/output/path'` in `FAMpRF_Experiment/experiment/main.py`.
 
 
 ### Flicker Task
+
+![](example_stimulus/flicker_task.mov)
 
 ### pRF Mapping Task
 
