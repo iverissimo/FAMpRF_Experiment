@@ -48,9 +48,9 @@ After running the experiment, the task files (like log files, events, etc) will 
 
 ### Flicker Task
 
-
-https://github.com/iverissimo/FAMpRF_Experiment/blob/main/example_stimulus/flicker_task.mov
-
+<p align="center">
+  <video src="https://github.com/user-attachments/assets/4dde1113-759a-4eb1-bd42-33d59042379c" width="500px"></video>
+</p>
 
 ### pRF Mapping Task
 
