@@ -314,4 +314,3 @@ dependencies:
     - zmq==0.0.0
     - zope-event==5.0
     - zope-interface==7.1.1
-prefix: /Users/iverissimo/anaconda3/envs/FAMexperiment
