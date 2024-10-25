@@ -125,7 +125,6 @@ dependencies:
     - elementpath==4.5.0
     - esprima==4.0.1
     - et-xmlfile==1.1.0
-    - exptools2==0.1.dev0
     - ffpyplayer==4.5.2
     - freetype-py==2.5.1
     - gevent==24.10.3
