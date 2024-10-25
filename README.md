@@ -48,11 +48,9 @@ After running the experiment, the task files (like log files, events, etc) will 
 
 ### Flicker Task
 
-![](example_stimulus/flicker_task.mov)
 
-<video width="320" height="240" controls>
-  <source src="example_stimulus/flicker_task.mov" type="video/mov">
-</video>
+<video src="https://github.com/iverissimo/FAMpRF_Experiment/blob/main/example_stimulus/flicker_task.mov" width="300" />
+
 
 ### pRF Mapping Task
 
