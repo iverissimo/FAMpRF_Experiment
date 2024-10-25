@@ -4,7 +4,7 @@ FAM project pRF mapping experiment stimulus.
 
 ## Setting up Environment
 
-This project was developed with Python 3.10 and requires certain packages, such as [exptools2](https://github.com/VU-Cog-Sci/exptools2) (for communication with the eyetracker) and Psychopy.
+This project was developed with Python 3.10 and requires certain packages, such as [exptools2](https://github.com/VU-Cog-Sci/exptools2) (for communication with the eyetracker) and [Psychopy](https://www.psychopy.org/download.html).
 
 To install the necessary dependencies, start by creating a dedicated conda environment from the `environment.yml` file located in the root folder. The first line of the `yml` file sets the new environment's name (default is *FAMexperiment*). 
 
@@ -37,9 +37,9 @@ cd experiment
 python main.py <sub_num> <run_num>
 ```
 
-Where `<sub_num>` is the participant ID and `<run_num>` is the fMRI task run ID (ex: `python main.py 1 1`). Both values should be integers. 
+Where `<sub_num>` is the participant ID and `<run_num>` is the fMRI task run ID. Both values should be integers (ex: `python main.py 1 1`).
 
-After running the above code lines, you will be prompted to choose which of the 3 available tasks you would like to run in this session: `flicker`, `standard` or `feature`. More details regarding the task structure are shown in the subsequent sections.
+After running the above code lines, you will be prompted to choose which of the 3 available tasks you would like to run in this session: `flicker`, `standard` or `feature`. For more details on the different tasks, please check the subsequent sections.
 
 After running the experiment, the task files (like log files, events, etc) will be stored in the newly created `output` folder, located in the root folder. The files will be named according to the BIDS convention (e.g.: `output/sourcedata/sub-001/sub-001_ses-1_task-pRF_run-1_events.tsv`).
 
