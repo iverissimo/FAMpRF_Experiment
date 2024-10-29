@@ -48,19 +48,27 @@ After running the experiment, the task files (like log files, events, etc) will 
 
 ### Flicker Task
 
-When selecting the `flicker` task, the code will run a [flicker fusion threshold](https://en.wikipedia.org/wiki/Flicker_fusion_threshold) paradigm. This is a color luminance matching task, where participants are asked to fixate the center of the screen while adjusting the color luminance value of a flickering concentric square ring. The stimuli colors values are matched (isoluminant) when the ring does not appear to flicker anymore.
+When selecting the `flicker` task, the code will run a [flicker fusion threshold](https://en.wikipedia.org/wiki/Flicker_fusion_threshold) paradigm. This is a color luminance matching task, where participants are asked to fixate the center of the screen while adjusting the color luminance value of a flickering concentric square ring. The stimuli colors are matched (isoluminant) when the ring does not appear to flicker anymore.
 
 <p align="center">
   <video autoplay loop muted src="https://github.com/user-attachments/assets/4dde1113-759a-4eb1-bd42-33d59042379c" width="500px"></video>
 </p>
 
-After running a `flicker` session, several `yml` files will be stored in the `output` folder. These contain the isoluminant stimuli color values which will then be averaged per participant, replacing the default color settings in the main experimental tasks (`standard` and the `feature` tasks). 
+After running a `flicker` session, several `yml` files will be stored in the `output` folder. These contain the isoluminant stimuli color values which will then be averaged per participant, replacing the default color settings in the main experimental tasks (`standard` and `feature`). 
 
 ### pRF Mapping Task
+
+When selecting the `standard` task, the code will run a [population receptive field (pRF) mapping](https://pmc.ncbi.nlm.nih.gov/articles/PMC3073038/) task. In this task, a flickering bar stimulus moves across the display in different cardinal directions. Participants are asked to fixate the center of the screen, and indicate the bar color (green/red) at every step via button-press.
 
 <p align="center">
   <video autoplay loop muted src="https://github.com/user-attachments/assets/a1ce43f9-1c5a-410e-b90e-af029553b6be" width="500px"></video>
 </p>
+
+After running a `standard` session, different files will be stored in the `output` folder:
+
+- `sub-<sub_num>_ses-1_task-pRF_run-<run_num>_expsettings.yml` with the main experimental settings used (stimuli color values, screen resolution, number of trials etc)
+- `sub-<sub_num>_ses-1_task-pRF_run-<run_num>_events.tsv` events dataframe with information on stimulus timming, participant response, etc
+- `sub-<sub_num>_ses-1_task-pRF_run-<run_num>_log.txt` logfile with extra information for housekeepingbookeeping
 
 ### Feature Attention Task
 
