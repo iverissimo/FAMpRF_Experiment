@@ -1,6 +1,6 @@
 # FAMpRF_Experiment
 
-FAM project pRF mapping experiment stimulus.
+Repository for the FAM project experimental stimulus code. In this project we designed a novel retinotopic mapping protocol to investigate how feature information guides visual selection across the visual field.
 
 ## Setting up Environment
 
