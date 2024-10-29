@@ -72,9 +72,18 @@ After running a `standard` session, different files will be stored in the `outpu
 
 ### Feature Attention Task
 
+When selecting the `feature` task, the code will run a feature-based attention mapping task. In this task, participants are asked to detect and respond to a target bar stimulus, whilst ignoring the competing distractor bar. The two stimuli differ in color (red vs green), and the target-defining color is cued at the start of each run. The goal is to indicate the exact hue of the target bar (pink/orange for red bars or blue/yellow for green bars) as quickly as possible via button-press, while keeping fixation at the center of the screen.
+
 <p align="center">
   <video autoplay loop muted src="https://github.com/user-attachments/assets/169eb9cc-8c4e-440e-8991-621cad9eaf79" width="500px"></video>
 </p>
 
+After running a `feature` session, different files will be stored in the `output` folder:
+
+- `sub-<sub_num>_ses-1_task-FA_run-<run_num>_expsettings.yml` with the main experimental settings used (e.g.: stimuli color values, screen resolution, number of trials, etc)
+- `sub-<sub_num>_ses-1_task-FA_run-<run_num>_events.tsv` events dataframe with information on stimulus timing and participant response
+- `sub-<sub_num>_ses-1_task-FA_run-<run_num>_trial_info.csv` task specific information on the trial order, and identity of each bar stimulus
+- `sub-<sub_num>_ses-1_task-FA_run-<run_num>_bar_positions.pkl` pickle file with the screen coordinates (in pix) for the different stimuli and their relative spatial configurations
+- `sub-<sub_num>_ses-1_task-FA_run-<run_num>_log.txt` logfile with extra information for bookeeping
 
 
