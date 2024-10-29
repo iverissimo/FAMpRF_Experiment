@@ -66,9 +66,9 @@ When selecting the `standard` task, the code will run a [population receptive fi
 
 After running a `standard` session, different files will be stored in the `output` folder:
 
-- `sub-<sub_num>_ses-1_task-pRF_run-<run_num>_expsettings.yml` with the main experimental settings used (stimuli color values, screen resolution, number of trials etc)
-- `sub-<sub_num>_ses-1_task-pRF_run-<run_num>_events.tsv` events dataframe with information on stimulus timming, participant response, etc
-- `sub-<sub_num>_ses-1_task-pRF_run-<run_num>_log.txt` logfile with extra information for housekeepingbookeeping
+- `sub-<sub_num>_ses-1_task-pRF_run-<run_num>_expsettings.yml` with the main experimental settings used (e.g.: stimuli color values, screen resolution, number of trials, etc)
+- `sub-<sub_num>_ses-1_task-pRF_run-<run_num>_events.tsv` events dataframe with information on stimulus timing and participant response
+- `sub-<sub_num>_ses-1_task-pRF_run-<run_num>_log.txt` logfile with extra information for bookeeping
 
 ### Feature Attention Task
 
